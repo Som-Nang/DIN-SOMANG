@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,900&display=swap");
+
+* {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #fffdfc;
+
+  font-family: "Poppins", sans-serif;
+}
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Header */
+nav {
+  display: flex;
+  background-color: #000;
+  height: 60px;
+  padding: 8px;
+  justify-content: center;
+}
+.input-text {
+  color: white;
+  padding-top: 8px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  padding-left: 300px;
+  /* padding-right: 20px; */
+  padding-top: 16px;
+  margin: 0px;
+}
+ul,
+a,
+li {
+  text-decoration: none;
+}
+li {
+  text-decoration: none;
+  margin-left: 20px;
+  color: white;
+}
+li:hover {
+  color: gray;
+}
+.backgroundPage-1,
+.backgroundPage-2 {
+  background-color: #ffff;
+  height: 600px;
+}
+img {
+  padding: 46px;
+  width: auto;
+}
+.describ {
+  padding: 60px;
+  width: 560px;
+  justify-content: center;
+  text-align: justify;
+}
+.backgroundPage-1 {
+  background-color: #f0f0ff #7a42eb;
+  display: flex;
+  justify-content: center;
+}
+.backgroundPage-2 {
+  background-color: #073366;
+  display: flex;
+  justify-content: center;
+}
+/* Header */
+
+/* Team Structure */
+section {
+  padding: 0px;
+  margin: 0px;
+  background-color: #fffdfc;
+}
+.wrapper {
+  margin-top: 50px;
+}
+
+.wrapper h1 {
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.team .team_member {
+  background: #f0f0ff;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #8e8b8b;
+  position: relative;
+}
+
+.team .team_member h3 {
+  color: #81c644;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.team .team_member p.role {
+  color: #ccc;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.team .team_member .team_img {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.team .team_member .team_img img {
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+.team_img > img {
+  border-radius: 50%;
+}
+/* Team Structure */
+
+/* Portfolio */
+table,
+tr,
+td {
+  margin: 0;
+  padding: 0;
+}
+.tblImg {
+  padding: 0;
+}
+.tbl table {
+  display: flex;
+  justify-content: center;
+}
+.tbl-text {
+  text-align: center;
+}
+/* Portfolio */
+
+/* Service */
+.service-area {
+  border: 0.5px solid black;
+  width: 300px;
+  height: 100px;
+}
+i,
+fa-brands {
+  padding: 10px 10px;
+}
+h5 {
+  text-align: justify;
+  padding: 5px;
+}
+.tbl table {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 36px;
+}
+.tbl-text {
+  text-align: center;
+}
+.fa-instagram:hover {
+  color: rgb(251, 173, 80);
+}
+.fa-youtube:hover {
+  color: red;
+}
+.fa-facebook:hover {
+  color: #2a7ee8;
+}
+.fa-tiktok:hover {
+  color: #012030;
+}
+.fa-yahoo:hover {
+  color: #6f00ff;
+}
+/* Service */
+
+/* footer */
+fieldset {
+  display: flex;
+  justify-content: center;
+}
+.contact {
+  color: #fffdfc;
+}
+footer {
+  background-color: #2f3d40;
+}
+.item-contact {
+  padding: 16px;
+}
+.map {
+  margin: 40px 0px 40px 160px;
+}
+.footer-item {
+  border: 1px solid #182625;
+  height: 46px;
+  background-color: #182625;
+}
+.footer-item > p {
+  color: #fffdfc;
+  text-align: center;
+}
+/* PORTFOLIO AREA */
